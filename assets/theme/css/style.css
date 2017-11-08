@@ -95,11 +95,13 @@ h6 {
      03. HELPER
 ============================*/
 .bg1 {
-  background-image: url(../images/rose.jpg);
+  background-image: url("../imagesrose.jpg");
 }
+/*
 .bg2 {
   background-image: url(../images/rose.jpg);
 }
+*/
 .container-medium {
   padding-right: 15px;
   padding-left: 15px;
@@ -130,7 +132,7 @@ h6 {
 .content-table {
   display: table;
   position: relative;
-  width: 100%;
+  width: 60%;
 }
 .content-table .v-content {
   position: relative;
@@ -289,22 +291,18 @@ blockquote {
 .font-alt {
   font-family: Georgia;
 }
-/*
 .br-right {
   border-right: 1px solid #ebebeb !important;
 }
-*/
 .br-left {
   border-left: 1px solid #FFFDEF !important;
 }
 .br-top {
   border-top: 1px solid #FFFDEF !important;
 }
-/*
 .br-bottom {
   border-bottom: 1px solid #ebebeb !important;
 }
-*/
 .line-dash-bottom {
   border-bottom: 1px dashed #ebebeb;
   padding-bottom: 12px;
@@ -470,7 +468,7 @@ blockquote {
   height: 10px;
 }
 .progress-wrap .bar {
-  background: #6a0000;
+/*  background: #6a0000;*/
   min-height: 2px;
   margin: 2px 0;
 }
@@ -855,7 +853,6 @@ blockquote {
 .form-control.form-flat.error {
   border-color: #C3c3c3;
 }
-/*
 .form-control.dark-form {
   background: #1e1e1e;
   box-shadow: none !important;
@@ -870,7 +867,6 @@ blockquote {
 .form-control.dark-form:focus {
   border-color: #e74c3c;
 }
-*/
 .select-chosen,
 .label-chosen {
   display: none;
@@ -893,7 +889,7 @@ textArea.form-flat {
 .form-control-small {
   width: 188px;
 }
-/*
+
 .flat-checkbox,
 .flat-radio {
   line-height: 1em;
@@ -945,7 +941,7 @@ textArea.form-flat {
   background-color: #000000;
   border-color: #000000;
 }
-*/
+
 .btn-file {
   min-width: 0;
   padding-left: 20px;
@@ -1109,7 +1105,7 @@ textArea.form-flat {
 }
 .main-header .header-content-fixed {
   height: 600px;
-  background: url(../images/rose.jpg) no-repeat center;
+  background: url("../images/rose.jpg"); no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
@@ -1276,7 +1272,7 @@ textArea.form-flat {
 .services li .ic {
   font-size: 25px;
   line-height: 25px;
-  color: #332519;
+/*  color: #332519;*/
 }
 .services li:last-child .box {
   border-right: 0;
@@ -1661,7 +1657,7 @@ textArea.form-flat {
 }
 .contact-area .form-contact-area .inner-contact {
   clear: both;
-  width: 470px;
+  width: 300px;
   padding: 60px 40px 60px 0;
   float: right;
 }
@@ -1774,7 +1770,7 @@ textArea.form-flat {
 .main-footer {
   padding-bottom: 40px;
   font-size: 12px;
-  background: red;
+  background: #6A0000;
   position: relative;
   border-top: 1px solid #431313;
   border-bottom: 5px solid #431313;
